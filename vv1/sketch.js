@@ -467,12 +467,15 @@ function drawTriangle(x, y, size) {
 
 // 笔刷5新增绘制长方形的函数
 function drawRectangle(x, y) {
+  push();
+  rectMode(CENTER)
   fill(250, 129, 0);
   noStroke();
   rect(x, y, 100, 20); // 长方形位置和大小
   fill(0); // 黑色
   rect(x - 20, y, 4, 20); // 左侧黑线
   rect(x + 20, y, 4, 20); // 右侧黑线
+  pop()
 }
 
 // 笔刷6新增绘制脸部的函数
