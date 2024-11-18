@@ -55,7 +55,10 @@ function setup() {
   uploadButton.size(40,40)
   // uploadButton = 0
   uploadButton.attribute('accept', 'image/*'); // 限制上传文件为图片类型
- 
+  let zk=["28A","28B","28C"]
+  let newSrc = klm[page];
+  document.getElementById(zk[page]).src = newSrc;
+  document.getElementById(zk[page]).style.display = "block";
 }
 
 function draw() {
