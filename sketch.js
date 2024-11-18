@@ -11,7 +11,7 @@ let bc=0;
 let letterBoxes = [];
 let zb
 
-let klm=["../vv1/index.html?", "../vv2/index.html?key=", "../vv3/index.html?key="]
+let klm=["./vv1/index.html?", "./vv2/index.html?key=", "./vv3/index.html?key="]
 let a
 let b
 let  c
