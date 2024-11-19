@@ -126,10 +126,10 @@ for (let box of letterBoxes) {
 
   stroke(203,153,255)
   fill(204)
-  rect(width*(300/1920),height*0.8+80+1,0.625*width+1,70)
+  rect(width*(300/1920),height*0.886,0.625*width+1,70)
   fill(244,84,77 ,100+100*sin (frameCount/5)  )
   stroke(210,210,255)
-  ellipse(width*(300/1920)+50,height*0.8+65+50,30,30)
+  ellipse(width*(300/1920)+50,height*0.886+65+50,30,30)
 
 
 
@@ -138,7 +138,7 @@ for (let box of letterBoxes) {
 
   pop()
 
-  image(zb,width*(900/1920)-5,height*0.8+82,0.625*width*0.5,0.079*width*0.5)
+  image(zb,width*(900/1920)-5,height*0.886,0.625*width*0.5,0.079*width*0.5)
   
 }
 
