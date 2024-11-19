@@ -241,21 +241,27 @@ function drawBrushIcons() {
 
 function checkBrushSelection(fingerX, fingerY, currentBrush) {
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+0*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=0
     return 'circle';
   }
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+1*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=1
     return 'square';
   }
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+2*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=2
     return 'star';
   }
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+3*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=3
     return 'random';
   }
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+4*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=4
     return 'rectangle';
   }
   if (dist(fingerX, fingerY, 15+0.05*zx/2, 15+5*0.05*zx+0.05*zx/2) < 0.05*zx / 2) {
+    bc=5
     return 'face';
   }
   return currentBrush;
