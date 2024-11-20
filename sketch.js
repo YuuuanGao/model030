@@ -70,9 +70,9 @@ function draw() {
   noStroke();
   
   
- if(page==0) image(a,width*(1500/1920),height*0.084,0.18*width,0.18*width*1.99)
-  if(page==1)image(b,width*(1500/1920),height*0.084,0.18*width,0.18*width*2.41)
-  if(page==2)image(c,width*(1500/1920),height*0.084,0.18*width,0.18*width*2.41)
+ if(page==0) image(a,width*0.781,height*0.084,0.18*width,0.18*width*1.99)
+  if(page==1)image(b,width*0.781,height*0.084,0.18*width,0.18*width*2.41)
+  if(page==2)image(c,width*0.781,height*0.084,0.18*width,0.18*width*2.41)
   
   
   push()
