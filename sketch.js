@@ -128,7 +128,7 @@ for (let box of letterBoxes) {
   rect(width*(300/1920),height*0.886,0.625*width+1,70)
   fill(244,84,77 ,100+100*sin (frameCount/5)  )
   stroke(210,210,255)
-  ellipse(width*(300/1920)+50,height*0.886+65+50,30,30)
+  ellipse(width*(300/1920)+50,height*0.886+35,30,30)
 
 
 
